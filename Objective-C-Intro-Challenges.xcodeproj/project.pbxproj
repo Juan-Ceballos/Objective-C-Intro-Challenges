@@ -10,6 +10,7 @@
 		3EAB4C4325CDFEE300182E11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAB4C4225CDFEE300182E11 /* main.m */; };
 		3EAB4C4C25CE01DD00182E11 /* VideoGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAB4C4B25CE01DD00182E11 /* VideoGame.m */; };
 		3EAB4C5125CE37B200182E11 /* XYPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAB4C5025CE37B200182E11 /* XYPoint.m */; };
+		3EAB4C5625CF037700182E11 /* GraphicObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAB4C5525CF037700182E11 /* GraphicObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		3EAB4C4B25CE01DD00182E11 /* VideoGame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoGame.m; sourceTree = "<group>"; };
 		3EAB4C4F25CE377F00182E11 /* XYPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYPoint.h; sourceTree = "<group>"; };
 		3EAB4C5025CE37B200182E11 /* XYPoint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYPoint.m; sourceTree = "<group>"; };
+		3EAB4C5425CF034900182E11 /* GraphicObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphicObject.h; sourceTree = "<group>"; };
+		3EAB4C5525CF037700182E11 /* GraphicObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraphicObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				3EAB4C4B25CE01DD00182E11 /* VideoGame.m */,
 				3EAB4C4F25CE377F00182E11 /* XYPoint.h */,
 				3EAB4C5025CE37B200182E11 /* XYPoint.m */,
+				3EAB4C5425CF034900182E11 /* GraphicObject.h */,
+				3EAB4C5525CF037700182E11 /* GraphicObject.m */,
 			);
 			path = "Objective-C-Intro-Challenges";
 			sourceTree = "<group>";
@@ -131,6 +136,7 @@
 				3EAB4C4325CDFEE300182E11 /* main.m in Sources */,
 				3EAB4C5125CE37B200182E11 /* XYPoint.m in Sources */,
 				3EAB4C4C25CE01DD00182E11 /* VideoGame.m in Sources */,
+				3EAB4C5625CF037700182E11 /* GraphicObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

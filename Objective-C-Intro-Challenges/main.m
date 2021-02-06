@@ -23,6 +23,27 @@ int convertToCelcius(int tempInF) {
     return tempInC;
 }
 
+int sumOfDigits(int num1) {
+    int temp = num1;
+    int sum = 0;
+    while (temp != 0) {
+        sum += temp % 10;
+        temp = temp / 10;
+    }
+    NSLog(@"sum of digits is %i", sum);
+    return sum;
+}
+
+BOOL isDivisible(int dividend, int divisor) {
+    if (dividend % divisor == 0) {
+        NSLog(@"The dividend, %i is divisible by the divisor, %i", dividend, divisor);
+        return YES;
+    } else {
+        NSLog(@"The dividend, %i is not divisible by the divisor, %i", dividend, divisor);
+        return NO;
+    }
+}
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
@@ -77,9 +98,13 @@ int main(int argc, const char * argv[]) {
          Write a program that calculates the sum of the digits of an integer. For example, the sum of the digits of the number 3045 is 3 + 0 + 4 + 5, or 12.
          */
         
+        sumOfDigits(3045);
+        
         /*
          Write a function (C-style) that takes two integers and returns a boolean value indicating whether or NOT the first number is divisible by the second number. Use an if/else statement to print an appropriate message.
          */
+        
+        isDivisible(2, 5);
         
         /*
          Write a class called GraphicObject with the following properties: fillColor, filled, lineColor, width and height. Write a class called Rectangle that inhertis from the GraphicObject class. Implement and test the following methods area and perimeter on the Rectangle class.
@@ -90,6 +115,8 @@ int main(int argc, const char * argv[]) {
 
          Expected output: Rectangle area is 4000 and the perimeter is 280
          */
+        
+        
         
         /*
          Using the Recatangle class from earlier add an initializer method according to the following declaration and test it.
