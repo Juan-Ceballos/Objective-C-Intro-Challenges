@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		3EAB4C4325CDFEE300182E11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAB4C4225CDFEE300182E11 /* main.m */; };
 		3EAB4C4C25CE01DD00182E11 /* VideoGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAB4C4B25CE01DD00182E11 /* VideoGame.m */; };
-		3EAB4C5125CE37B200182E11 /* XYPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAB4C5025CE37B200182E11 /* XYPoint.m */; };
 		3EAB4C5625CF037700182E11 /* GraphicObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAB4C5525CF037700182E11 /* GraphicObject.m */; };
+		3EEF967025E2DF7100C890BA /* XYPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EEF966F25E2DF7100C890BA /* XYPoint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,10 +30,10 @@
 		3EAB4C4225CDFEE300182E11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3EAB4C4A25CE01CC00182E11 /* VideoGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoGame.h; sourceTree = "<group>"; };
 		3EAB4C4B25CE01DD00182E11 /* VideoGame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoGame.m; sourceTree = "<group>"; };
-		3EAB4C4F25CE377F00182E11 /* XYPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYPoint.h; sourceTree = "<group>"; };
-		3EAB4C5025CE37B200182E11 /* XYPoint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYPoint.m; sourceTree = "<group>"; };
 		3EAB4C5425CF034900182E11 /* GraphicObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphicObject.h; sourceTree = "<group>"; };
 		3EAB4C5525CF037700182E11 /* GraphicObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraphicObject.m; sourceTree = "<group>"; };
+		3EEF966E25E2DF4000C890BA /* XYPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYPoint.h; sourceTree = "<group>"; };
+		3EEF966F25E2DF7100C890BA /* XYPoint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYPoint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,10 +67,10 @@
 			isa = PBXGroup;
 			children = (
 				3EAB4C4225CDFEE300182E11 /* main.m */,
+				3EEF966E25E2DF4000C890BA /* XYPoint.h */,
+				3EEF966F25E2DF7100C890BA /* XYPoint.m */,
 				3EAB4C4A25CE01CC00182E11 /* VideoGame.h */,
 				3EAB4C4B25CE01DD00182E11 /* VideoGame.m */,
-				3EAB4C4F25CE377F00182E11 /* XYPoint.h */,
-				3EAB4C5025CE37B200182E11 /* XYPoint.m */,
 				3EAB4C5425CF034900182E11 /* GraphicObject.h */,
 				3EAB4C5525CF037700182E11 /* GraphicObject.m */,
 			);
@@ -134,9 +134,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EAB4C4325CDFEE300182E11 /* main.m in Sources */,
-				3EAB4C5125CE37B200182E11 /* XYPoint.m in Sources */,
 				3EAB4C4C25CE01DD00182E11 /* VideoGame.m in Sources */,
 				3EAB4C5625CF037700182E11 /* GraphicObject.m in Sources */,
+				3EEF967025E2DF7100C890BA /* XYPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

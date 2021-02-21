@@ -64,14 +64,18 @@ int main(int argc, const char * argv[]) {
          
         /*
          Question 3
-         Define a class caleed XYPoint that will hold a Cartesian coordinate (x, y), where x and y are integers. Define methods to individually set x and y coordinates of a point and retrieve their values. Write an Objective-C program to implement your new class and test it.
+         Define a class called XYPoint that will hold a Cartesian coordinate (x, y), where x and y are integers. Define methods to individually set x and y coordinates of a point and retrieve their values. Write an Objective-C program to implement your new class and test it.
 
          Example test description of your XYPoint The point is at (x: 5, y: 10)
          */
         
-        XYPoint *coordinates = [[XYPoint alloc] init];
-        
-        [coordinates info];
+        NSLog(@"----Question 3----");
+        XYPoint *coord = [[XYPoint alloc] init];
+        [coord info];
+        [coord setY];
+        [coord setX];
+        [coord info];
+        NSLog(@"got you y: %i", [coord getY]);
         
         /*
          Question 4

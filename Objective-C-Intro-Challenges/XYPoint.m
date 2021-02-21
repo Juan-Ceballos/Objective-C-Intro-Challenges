@@ -2,39 +2,32 @@
 //  XYPoint.m
 //  Objective-C-Intro-Challenges
 //
-//  Created by Juan Ceballos on 2/5/21.
+//  Created by Juan Ceballos on 2/21/21.
 //
 
 #import <Foundation/Foundation.h>
 #import "XYPoint.h"
 
-@interface XYPoint()
-
-@property int x;
-@property int y;
-
-@end
-
 @implementation XYPoint
 
-- (int) getX {
+-(void)setX {
+    self.x = 4;
+}
+
+-(void)setY {
+    self.y = 4;
+}
+
+-(int)getX {
     return self.x;
 }
 
-- (int) getY {
+-(int)getY {
     return self.y;
 }
 
-- (void)setX: (int)value {
-    self.x = value;
-}
-
-- (void)setY: (int)value {
-    self.y = value;
-}
-
-- (void) info {
-    NSLog(@"(%i, %i)", self.x, self.y);
+-(void) info {
+    NSLog(@"x: %i y: %i", self.x, self.y);
 }
 
 @end
